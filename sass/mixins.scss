@@ -1,0 +1,28 @@
+@mixin fonts-rules($size: 0, $height: 0, $color: 0, $weight: normal) {
+	font-size: $size;
+	line-height: $height;
+	color: $color;
+	font-weight: $weight;
+}
+
+@mixin main-nav-text() {
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	
+	text-align: center;
+
+	& a {
+		color: white;
+		text-decoration: none;
+	}
+	
+}
+
+@mixin big-text($color: black, $weight: bold) {
+	font-size: 18px;
+	line-height: 26px;
+	color: $color;
+	font-weight: $weight;
+}
+

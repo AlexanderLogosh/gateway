@@ -1,0 +1,19 @@
+.social-btns, 
+.phone-img, 
+.mail-img, 
+.img-3, 
+.img-2, 
+.img-1 {
+	display: inline-block; 
+	background: url('png.png') no-repeat; 
+	overflow: hidden; 
+	text-indent: -9999px; 
+	text-align: left; 
+}
+ 
+.social-btns { background-position: -10px -0px; width: 194px; height: 15px; }
+.phone-img { background-position: -10px -25px; width: 42px; height: 42px; }
+.mail-img { background-position: -62px -25px; width: 16px; height: 12px; }
+.img-3 { background-position: -88px -25px; width: 15px; height: 12px; }
+.img-2 { background-position: -113px -25px; width: 12px; height: 12px; }
+.img-1 { background-position: -135px -25px; width: 9px; height: 13px; }
