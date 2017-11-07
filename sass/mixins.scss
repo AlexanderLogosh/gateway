@@ -10,7 +10,6 @@
 @mixin container() {
 	width: 1170px;
 	margin: 0 auto;
-	
 }
 
 @mixin fonts-rules($size: 0, $height: 0, $color: 0, $weight: normal) {
