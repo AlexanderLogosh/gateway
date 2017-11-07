@@ -1,0 +1,16 @@
+.page-header__wrapper {
+	@include container;
+	@include clearfix;
+	min-height: 92px;
+	background: white;
+}
+
+.page-header__logo {
+	float: left;
+	margin-left: 12px;
+
+	img {
+		width: 245px;
+		height: 86px;
+	}
+}

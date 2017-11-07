@@ -3,36 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gateway</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header class="page-header">
 		<div class="social-links">
-			<a class="social-links__btn social-links__btn--fb" href="#">Facebook</a>
-			<a class="social-links__btn social-links__btn--tw" href="#">Twitter</a>
-			<a class="social-links__btn social-links__btn--in" href="#">LinkedIn</a>
-			<a class="social-links__btn social-links__btn--inst" href="#">Instagram</a>
-			<a class="social-links__btn social-links__btn--v" href="#">Vine</a>
-			<a class="social-links__btn social-links__btn--vk" href="#">Vkontakte</a>
+			<div class="social-links__wrapper">
+				<a class="social-links__btn social-links__btn--fb" href="#">Facebook</a>
+				<a class="social-links__btn social-links__btn--tw" href="#">Twitter</a>
+				<a class="social-links__btn social-links__btn--in" href="#">LinkedIn</a>
+				<a class="social-links__btn social-links__btn--inst" href="#">Instagram</a>
+				<a class="social-links__btn social-links__btn--v" href="#">Vine</a>
+				<a class="social-links__btn social-links__btn--vk" href="#">Vkontakte</a>
+			</div>
 		</div>
-		<div class="page-header__logo">
-			<img src="img/logo.jpg" width="245" height="86" alt="Logo Gateway">
+		<div class="page-header__wrapper">
+			<div class="page-header__logo">
+				<img src="img/logo.jpg" width="245" height="86" alt="Logo Gatewa">
+			</div>
+			<nav class="main-nav">
+				<ul class="main-nav__items">
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Causes</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">Training</a></li>
+					<li class="main-nav__item"><a class="main-nav__link" href="#">News</a></li>
+					<li class="main-nav__item"><a class="main-nav__link main-nav__link--last" href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
-		<nav class="main-nav main-nav--closed main-nav--nojs">
-			<ul class="main-nav__items">
-				<li class="main-nav__item"><a href="#">Home</a></li>
-				<li class="main-nav__item"><a href="#">About</a></li>
-				<li class="main-nav__item"><a href="#">Causes</a></li>
-				<li class="main-nav__item"><a href="#">Training</a></li>
-				<li class="main-nav__item"><a href="#">News</a></li>
-				<li class="main-nav__item"><a href="#">Contact</a></li>
-			</ul>
-		</nav>
 	</header>
 	<main>
 		<section class="home">
-			<h1 class="home__title">An apprenticeship is genuinely the start
-				of an incredibly exciting journey into the world of construction.</h1>
+			<div class="home__wrapper">
+				<h1 class="home__title">An apprenticeship is<br>genuinely the start<br>of an incredibly exciting<br>journey into the world<br>of construction.</h1>
+			</div>
 		</section>
 
 		<section class="about">

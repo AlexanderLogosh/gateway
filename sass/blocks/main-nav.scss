@@ -1,0 +1,33 @@
+.main-nav {
+}
+
+.main-nav__items {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	@include clearfix;
+}
+
+.main-nav__item {
+	display: inline-block;
+}
+
+.main-nav__link {
+	display: block;
+	padding: 35px 0 33px;
+	padding-right: 59px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: black;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+
+}
+
+.main-nav__link--last {
+	padding-right: 0;
+}

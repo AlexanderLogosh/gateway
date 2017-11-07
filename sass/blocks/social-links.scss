@@ -1,0 +1,19 @@
+.social-links {
+	min-height: 41px;
+	width: 100%;
+	font-size: 0;
+	background: black url("../../img/bg-social-links.jpg");
+}
+
+.social-links__wrapper {
+	@include container;
+	@include clearfix;
+}
+.social-links__btn {
+	float: right;
+	margin-left: 23px;
+	margin-top: 13px;
+	width: 10px;
+	height: 10px;
+	background: red;
+}

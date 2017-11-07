@@ -1,0 +1,22 @@
+.home {
+	padding: 69px;
+	min-height: 623px;
+	background: #E93C49 url("../../img/bg-home.jpg");
+}
+
+.home__wrapper {
+	@include container;
+}
+
+.home__title {
+	display: block;
+	padding-left: 10px;
+	top: 40px;
+	font-family: aller, sans-serif;
+	font-weight: 700;
+	font-size: 48.4px;
+	line-height: 58px;
+	color: white;
+	letter-spacing: -0.025em;
+
+}

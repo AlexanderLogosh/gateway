@@ -1,7 +1,22 @@
 @import "global/_normalize.scss";
+@import "global/fonts.scss";
 
 @import "variables.scss";
 @import "mixins.scss";
 
-@import "global/fonts.scss";
 
+@import "scaffolding.scss";
+
+@import "sprite.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/social-links.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/home.scss";
+@import "blocks/about.scss";
+@import "blocks/causes.scss";
+@import "blocks/btn.scss";
+@import "blocks/training.scss";
+@import "blocks/news.scss";
+@import "blocks/contact.scss";
+@import "blocks/page-footer.scss";
