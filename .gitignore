@@ -4,7 +4,6 @@
 *.log
 *.pdf
 *.psd
-*.css
 node_modules/
 npm-debug.*
 Thumbs.db
