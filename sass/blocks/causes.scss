@@ -1,0 +1,43 @@
+.causes {
+	margin: 0;
+	padding: 0;
+	height: 544px;
+	box-sizing: border-box;
+	background: url("../img/bg-causes.jpg") no-repeat left top, 
+										url("../img/bg-red.jpg") no-repeat right top;
+	
+}
+
+.causes__wrapper {
+	@include container;
+	@include clearfix;
+}
+
+.causes__description {
+	float: right;
+	padding: 0;
+	padding-top: 97px;
+	width: 480px;
+}
+
+.causes__title {
+	margin: 0;
+	margin-bottom: 3px;
+	font-family: MyriadProBold, sans-serif;
+	font-size: 40.6px;
+	line-height: 54px;
+	letter-spacing: 0.06em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.causes__text {
+	margin: 0;
+	margin-bottom: 22px;
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	line-height: 20.5px;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+	color: white;
+}
