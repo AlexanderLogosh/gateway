@@ -592,27 +592,44 @@ body {
   width: 160px;
   padding: 0;
   margin: 0;
-  padding-top: 30px; }
+  margin-right: 63px; }
 
 .page-footer__links {
   margin: 0;
+  margin-top: 25px;
   padding: 0;
   list-style: none; }
 
 .page-footer__link {
-  padding: 10px 0;
-  margin: 0; }
+  padding: 9px 0;
+  margin: 0;
+  letter-spacing: 0.09em; }
 
 .page-footer__link a {
   text-decoration: none;
   color: white;
   padding: 0;
-  padding-left: 30px;
+  padding-left: 32px;
   margin: 0; }
 
 .page-footer__gallery {
   float: left;
-  width: 151px; }
+  width: 151px;
+  font-size: 0; }
+  .page-footer__gallery .page-footer__title {
+    display: block;
+    margin-bottom: 32px; }
+
+.page-footer__img-wrapper {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 7px;
+  width: 72px;
+  height: 67px;
+  background: #f13e4b; }
+
+.page-footer__img-wrapper:nth-child(2n) {
+  margin-right: 7px; }
 
 .page-footer__contacts {
   float: right;
