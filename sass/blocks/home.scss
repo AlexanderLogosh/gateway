@@ -1,9 +1,23 @@
 .home {
 	padding-top: 69px;
-	height: 623px;
+	width: 100%;
+	min-height: 623px;
+	min-width: 1600px;
 	box-sizing: border-box;
-	background: #E93C49 url("../img/bg-home.jpg");
-	
+	background: #E93C49 url("../img/bg-home.jpg") no-repeat;
+	background-size: 100% auto;
+
+	@media (min-width: 1800px) {
+		height: 700px;
+	}
+
+	@media (min-width: 2000px) {
+		height: 780px;
+	}
+
+	@media (min-width: 2800px) {
+		height: 1090px;
+	}
 }
 
 .home__wrapper {

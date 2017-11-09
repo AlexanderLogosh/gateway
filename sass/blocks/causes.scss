@@ -1,11 +1,26 @@
 .causes {
 	margin: 0;
 	padding: 0;
-	height: 544px;
+	height: 554px;
 	box-sizing: border-box;
 	background: url("../img/bg-causes.jpg") no-repeat left top, 
 										#f13e4b url("../img/pattern-2.png");
-	
+	background-size: 54% 554px, auto auto;	
+
+	@media (min-width: 1800px) {
+		height: 625px;
+		background-size: 54% 625px, auto auto;
+	}
+
+	@media (min-width: 2000px) {
+		height: 696px;
+		background-size: 54% 696px, auto auto;
+	}
+
+	@media (min-width:) {
+		height: 554px;
+		background-size: 54% 554px, auto auto;
+	}
 }
 
 .causes__wrapper {
@@ -18,6 +33,14 @@
 	padding: 0;
 	padding-top: 97px;
 	width: 480px;
+
+	@media (min-width: 2000px) {
+		width: 430px;
+	}
+
+	@media (min-width: 3100px) {
+		width: 390px;
+	}
 }
 
 .causes__title {
