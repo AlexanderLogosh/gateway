@@ -10,12 +10,14 @@
 	<header class="page-header">
 		<div class="social-links">
 			<div class="social-links__wrapper">
-				<a class="social-links__btn social-links__btn--fb" href="#">Facebook</a>
-				<a class="social-links__btn social-links__btn--tw" href="#">Twitter</a>
-				<a class="social-links__btn social-links__btn--in" href="#">LinkedIn</a>
-				<a class="social-links__btn social-links__btn--inst" href="#">Instagram</a>
-				<a class="social-links__btn social-links__btn--v" href="#">Vine</a>
-				<a class="social-links__btn social-links__btn--vk" href="#">Vkontakte</a>
+				<div class="social-links__container">
+					<a class="social-links__btn social-links__btn--fb" href="#">Facebook</a>
+					<a class="social-links__btn social-links__btn--tw" href="#">Twitter</a>
+					<a class="social-links__btn social-links__btn--in" href="#">LinkedIn</a>
+					<a class="social-links__btn social-links__btn--inst" href="#">Instagram</a>
+					<a class="social-links__btn social-links__btn--v" href="#">Vine</a>
+					<a class="social-links__btn social-links__btn--vk" href="#">Vkontakte</a>
+				</div>
 			</div>
 		</div>
 		<div class="page-header__wrapper">
@@ -94,65 +96,71 @@
 		</section> 
 
 		<section class="news">
-			<h2 class="news__title">WHAT PEOPLE SAY</h2>
-			<div class="news__item">
-				<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-				<span class="news__autor red-text">John</span>
-				<div class="news__photo"></div>
+			<div class="news__wrapper">
+				<h2 class="news__title">WHAT PEOPLE SAY</h2>
+				<div class="news__item">
+					<p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+					<span class="news__autor red-text">John</span>
+					<div class="news__photo"></div>
+				</div>
 			</div>
 		</section>
 
 		<section class="contact">
-			<span class="contact__text">Do you have<br>a question?</span>
-			<span class="contact__number">+000000000000</span>
-			<form class="contact__form" action="" method="post">
-				<input class="contact__mail" type="text">
-				<input class="contact__btn btn" type="submit">
-			</form>
+			<div class="contact__wrapper">
+				<span class="contact__text">Do you have<br>a question?</span>
+				<span class="contact__number">+000000000000</span>
+				<form class="contact__form" action="" method="post">
+					<input class="contact__mail" type="text">
+					<input class="contact__btn btn" type="submit" value="Subscribe">
+				</form>
+			</div>
 		</section>
 	</main>
 	<footer class="page-footer">
-		<div class="page-footer__mission">
-			<b class="page-footer__title page-footer__title--big">Our Mission</b>
-			<p class="page-footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			<p class="page-footer__text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-		</div>
-		<div class="page-footer__nav">
-			<b class="page-footer__title">Quick Links</b>
-			<ul class="page-footer__links">
-				<li class="page-footer__link"><a href="#">Home</a></li>
-  			<li class="page-footer__link"><a href="#">About</a></li>
-  			<li class="page-footer__link"><a href="#">Causes</a></li>
-  			<li class="page-footer__link"><a href="#">Training</a></li>
-  			<li class="page-footer__link"><a href="#">News</a></li>
-  			<li class="page-footer__link"><a href="#">Contact</a></li>
-			</ul>
-		</div>
-		<div class="page-footer__gallery">
-			<b class="page-footer__title">Gallery</b>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-			<div class="page-footer__img-wrapper"><img src="" alt="image"></div>
-		</div>
-		<div class="page-footer__contacts">
-			<b class="page-footer__title">Contact us</b>
-			<div class="page-footer__adress">
-				<span class="page-footer__contact-title">Head Office</span>
-				<span class="page-footer__contact-text">123, Main Street, Your City<br>000000000</span>
+		<div class="page-footer__wrapper">
+			<div class="page-footer__mission">
+				<b class="page-footer__title page-footer__title--big">Our Mission</b>
+				<p class="page-footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p class="page-footer__text">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
 			</div>
-			<div class="page-footer__phone">
-				<span class="page-footer__contact-title">Phone Number</span>
-				<span class="page-footer__contact-text">+00000000000<br>+000000000000</span>
+			<div class="page-footer__nav">
+				<b class="page-footer__title">Quick Links</b>
+				<ul class="page-footer__links">
+					<li class="page-footer__link"><a href="#">Home</a></li>
+	  			<li class="page-footer__link"><a href="#">About</a></li>
+	  			<li class="page-footer__link"><a href="#">Causes</a></li>
+	  			<li class="page-footer__link"><a href="#">Training</a></li>
+	  			<li class="page-footer__link"><a href="#">News</a></li>
+	  			<li class="page-footer__link"><a href="#">Contact</a></li>
+				</ul>
 			</div>
-			<div class="page-footer__email">
-				<span class="page-footer__contact-title">Email</span>
-				<span class="page-footer__contact-text">gateway@gmail.com<br><a href="www.gateway.com">www.gateway.com</a></span>
+			<div class="page-footer__gallery">
+				<b class="page-footer__title">Gallery</b>
+				<div class="page-footer__img-wrapper"></div>
+				<div class="page-footer__img-wrapper"></div>
+				<div class="page-footer__img-wrapper"></div>
+				<div class="page-footer__img-wrapper"></div>
+				<div class="page-footer__img-wrapper"></div>
+				<div class="page-footer__img-wrapper"></div>
 			</div>
+			<div class="page-footer__contacts">
+				<b class="page-footer__title">Contact us</b>
+				<div class="page-footer__adress">
+					<span class="page-footer__contact-title">Head Office</span>
+					<span class="page-footer__contact-text">123, Main Street, Your City<br>000000000</span>
+				</div>
+				<div class="page-footer__phone">
+					<span class="page-footer__contact-title">Phone Number</span>
+					<span class="page-footer__contact-text">+00000000000<br>+000000000000</span>
+				</div>
+				<div class="page-footer__email">
+					<span class="page-footer__contact-title">Email</span>
+					<span class="page-footer__contact-text">gateway@gmail.com<br><a href="www.gateway.com">www.gateway.com</a></span>
+				</div>
+			</div>
+			<div class="page-footer__coopyright"><span>Copyright © 2017, gateway.COM, All Rights Reserved.</span></div>
 		</div>
-		<div class="page-footer__coopyright"><span>Copyright © 2017, gateway.COM, All Rights Reserved.</span></div>
 	</footer>
 </body>
 </html>

@@ -2,18 +2,52 @@
 	min-height: 41px;
 	width: 100%;
 	font-size: 0;
-	background: black url("../img/bg-social-links.jpg");
+	background: #3b3c3d url("../img/pattern-2.png");
 }
 
 .social-links__wrapper {
 	@include container;
 	@include clearfix;
 }
-.social-links__btn {
+
+.social-links__container {
 	float: right;
-	margin-left: 23px;
-	margin-top: 13px;
-	width: 10px;
-	height: 10px;
-	background: red;
+}
+
+.social-links__btn {
+	display: inline-block;
+	margin-left: 21px;
+	margin-top: 12px;
+	height: 16px;
+}
+
+.social-links__btn--fb {
+	background: url("../img/sprite.png");
+	background-position: -10px 0px; 
+	width: 10px; 
+}
+.social-links__btn--tw {
+	background: url("../img/sprite.png");
+	background-position: -41px -0px; 
+	width: 15px;
+}
+.social-links__btn--in {
+	background: url("../img/sprite.png");
+	background-position: -78px -0px; 
+	width: 13px; 
+}
+.social-links__btn--inst {
+	background: url("../img/sprite.png");
+	background-position: -114px -0px; 
+	width: 14px; 
+}
+.social-links__btn--v {
+	background: url("../img/sprite.png");
+	background-position: -152px -0px; 
+	width: 13px; 
+}
+.social-links__btn--vk {
+	background: url("../img/sprite.png");
+	background-position: -187px 0; 
+	width: 17px; 
 }

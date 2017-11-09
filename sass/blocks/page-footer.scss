@@ -1,0 +1,88 @@
+.page-footer {
+	min-height: 760px;
+	background-color: #091b27;
+	background: #091b27 url("../img/pattern-2.png");
+	background-color: #091b27;
+}
+
+.page-footer__wrapper {
+	@include container;
+
+	padding-top: 150px;
+	color: white;
+}
+
+.page-footer__mission {
+	float: left;
+	width: 350px;
+	margin-right: 85px;
+}
+
+.page-footer__title {
+	font-family: Montserrat, sans-serif;
+	font-size: 17px;
+	font-weight: 400px;
+	line-height: 19px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+}
+
+.page-footer__title--big {
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 9px;
+	font-family: Montserrat, sans-serif;
+	font-size: 32.7px;
+	font-weight: 800px;
+	line-height: 19px;
+}
+
+.page-footer__text {
+	font-family: Montserrat, sans-serif;
+	font-size: 15px;
+	font-weight: 400px;
+	line-height: 18px;
+	margin-bottom: 18px;
+}
+
+.page-footer__nav {
+	float: left;
+	width: 160px;
+	padding: 0;
+	margin: 0;
+	padding-top: 30px;
+}
+
+.page-footer__links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.page-footer__link {
+	padding: 10px 0;
+	margin: 0;
+}
+
+.page-footer__link a {
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	padding-left: 30px;
+	margin: 0;
+}
+
+.page-footer__gallery {
+	float: left;
+	width: 151px;
+}
+
+.page-footer__contacts {
+	float: right;
+	width: 275px;
+}
+
+.page-footer__coopyright {
+	clear: both;
+}
