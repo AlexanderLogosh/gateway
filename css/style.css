@@ -306,6 +306,10 @@ body {
           box-sizing: border-box;
   background: url("../img/bg-causes.jpg") no-repeat left top, #f13e4b url("../img/pattern-2.png");
   background-size: 54% 554px, auto auto; }
+  @media (min-width: 300px) and (max-width: 400px) {
+    .causes {
+      height: 725px;
+      background-size: 54% 625px, auto auto; } }
   @media (min-width: 1800px) {
     .causes {
       height: 625px;
